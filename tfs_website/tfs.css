@@ -3,3 +3,13 @@ html, body
     background-color: green;
 
 }
+
+nav{
+    opacity:0.7;
+}
+
+nav:hover{
+    opacity: 1;
+}
+
+
