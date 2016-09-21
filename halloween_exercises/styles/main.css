@@ -1,26 +1,26 @@
 html, body{
     font-family: sans-serif;
-    margin:20px;
 }
 
 body{
-    box-shadow: 10px 5px black;
-
-    z-index:1;
-    display: table-cell;
+    border: 0.1em solid black;
+    box-shadow: 5px 10px 5px black;
     vertical-align: middle;
-    top:50%;
-    left: 50%;
+    width: 800px;
+    background-color: white;
 }
 
 html{
     background-image: url(../images/bats.gif);
-    display: table;
-    margin: auto;
-    height:70%;
+    margin-left: 20%;
 }
 
-h1 > img{
+header{
+    border-top: 1px solid black;
+    background: linear-gradient(to right, white , orange, black);
+}
+
+header img{
     float:left;
 }
 
@@ -28,41 +28,30 @@ a{
     color: orange;
     font-weight: bold;
 }
+
 a:hover{
     color: green;
 }
 
-header > h3, header > h2{
-    text-indent:100px;
+#bigger{
+    font-size: 50px;
 }
 
-h2{
-    font-size: 20px;
-}
-
-h3{
-    font-size: 16px;
-}
-
-h1{
-    font-size: 15px;
+main{
+    padding-left: 15px;
+    clear: left;
 }
 
 li{
     margin: 10px;
 }
 
-header{
-    border-bottom: 1px solid black;
-    background: linear-gradient(to right, white , orange, black);
-}
+
 
 footer{
     text-align: center;
     font-size:15px;
     border-top: 1px solid black;
     background: linear-gradient(to right, black , orange, white);
-}
-img{
-    z-index: -1;
+    height: 30px;
 }
