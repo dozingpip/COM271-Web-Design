@@ -1,3 +1,4 @@
+/* Stephanie Donnelly - Lab 4 - COM 271 Fall 2016 */
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -9,9 +10,53 @@ header img {
 	float: left;
 }
 
+/*step 5*/
+header h2{
+    color: #800000;
+    text-indent: 30px;
+}
+
+header h3{
+    font-style: italic;
+    text-indent: 30px;
+}
+
 /* the styles for the section */
 main {
 	clear: left;
+    padding-left: 5px;
+}
+
+/*step 7*/
+main h1{
+    font-size: 150%;
+    color: #800000;
+}
+
+/*step 8*/
+main h2{
+    font-size: 120%;
+}
+
+/*step 9*/
+#speakers{
+    font-size: 175%;
+    color: black;
+}
+
+/*step 12*/
+.shadow{
+    text-shadow: 2px 2px #800000;
+}
+
+/*step 10*/
+a:hover, a:focus{
+    color: #800000;
+    font-style: italic;
 }
 
 /* the styles for the footer */
+/*step 11*/
+footer p{
+    text-align: center;
+}
