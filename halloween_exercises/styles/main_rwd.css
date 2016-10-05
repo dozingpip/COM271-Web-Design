@@ -1,0 +1,59 @@
+html{
+    max-width: 960px;
+    height: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    font-size: 1em;
+}
+
+body{
+    width: 95%;
+    min-width: 300px;
+}
+
+header img, a img{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 40px;
+    min-height: 40px;
+    width: 15%;
+}
+
+a img{
+    min-width: 100px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 35%;
+}
+
+.sidebar{
+    width: 30%;
+}
+
+@media (max-width: 800px){
+    html{
+        box-shadow: none;
+        font-size:90%;
+        background-image: none;
+    }
+}
+
+@media (max-width: 767px){
+    nav{
+        display: hidden;
+    }
+    slicknav{
+        display: block;
+    }
+    html{
+        padding: 2%;
+        margin: 2%;
+    }
+}
+
+@media (max-width:479px){
+    header, main h1, main h2, main h3{
+        font-size: 95%;
+    }
+}

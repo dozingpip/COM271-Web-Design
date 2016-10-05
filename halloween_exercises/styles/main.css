@@ -12,7 +12,6 @@ body{
 
 html{
     background-image: url(../images/bats.gif);
-    margin-left: 20%;
 }
 
 header{
@@ -133,6 +132,7 @@ main h2{
 .sidebar ul{
     padding:0.6em;
     margin: 0;
+    width: 90%;
 }
 
 #cat{
