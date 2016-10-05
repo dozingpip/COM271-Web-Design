@@ -1,31 +1,25 @@
 /* Stephanie Donnelly - Lab 5 - COM 271 Fall 2016 */
 
-/*step 8*/
 html{
     margin:0;
     padding:0;
-    /*step 4*/
     background-color:white;
 }
 
-/*step 2 */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width:600px;
     margin:0px auto 0px;
     border: 3px solid #931420;
-    /*step 3*/
     background-color:#fffded;
+    width: 800px;
 }
 
 header{
-    /*step 9*/
     padding-top:1.5em;
     padding-bottom:2em;
-    /*step 15*/
     background:linear-gradient(45deg,#f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-    /*step 5*/
     border-bottom: 3px solid #931420;
 }
 
@@ -44,50 +38,128 @@ header h3{
     font-style: italic;
 }
 
-/*step 10*/
+#nav_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu li{
+    float:left;
+    width: 20%;
+}
+
+#nav_menu li a{
+    display: block;
+    text-align: center;
+    padding: 1em 0em;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu ul{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+#nav_menu ul li{
+    float: none;
+    top: 100%;
+    width: 100%;
+}
+
+#nav_menu li:hover > ul, #navmenu li ul li{
+    display: block;
+}
+
+#nav_menu li a.current{
+    color: yellow;
+}
+
+
+#nav_menu::after{
+    content: "";
+    clear: both;
+    display: block;
+    color: #000;
+}
+
 main {
 	clear: left;
-    padding: 0px 30px 0px 30px;
 }
 
-/*step 6*/
-main h1{
+section{
+    float: right;
+    width:525px;
+    padding: 0px 20px 20px 0px;
+}
+
+section h1{
     font-size: 150%;
-    color: #800000;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-    padding: 0.3px 0em;
+    padding: 0.5em 0px 0.25em 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-/*step 11*/
-main h2{
+article{
+    padding: 0.5em 0px;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+
+article img{
+    float: right;
+    border: 1px solid black;
+}
+
+article h2{
+    padding-top:0px;
+}
+
+article h3{
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+
+aside{
+    width: 215px;
+    float:right;
+    padding: 0px 20px 20px 0px;
+}
+
+aside h2{
     font-size: 120%;
     padding: 0.5em 0em 0.25em;
 }
 
-main h3{
+aside h3{
+    padding-bottom: 0.25em;
+    font-size: 105%;
     padding-bottom: 0.25em;
 }
 
-main img{
+aside img{
     padding-bottom: 1em;
 }
 
-main p{
+aside p{
     padding-bottom:0.5em;
 }
 
-main blockquote{
+aside blockquote{
     padding: 0px 2em;
-    /*step 14*/
     font-style:italic;
 }
 
-main ul{
+aside ul{
     padding: 0px 0em 0.25em 1.25em;
 }
 
-main li{
+aside li{
     padding-bottom: 0.35em;
 }
 
@@ -98,25 +170,22 @@ main li{
 
 
 .shadow{
-    text-shadow: 2px 2px #800000;
+    text-shadow: 2px 2px 1px #800000;
 }
-
 
 a:hover, a:focus{
     color: #800000;
     font-style: italic;
 }
 
-/*step 7*/
 footer{
     background-color: #931420;
     border: 3px solid #931420;
+    clear: right;
 }
 
-/*step 7*/
 footer p{
     text-align: center;
-    /*step 12*/
     padding-top:1em 0em;
     color: white;
 }
