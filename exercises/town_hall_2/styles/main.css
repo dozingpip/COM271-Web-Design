@@ -138,6 +138,14 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
+article figure figcaption{
+    font-size: 100%;
+    display: block;
+    font-weight: bold;
+    padding-top: .25em;
+    border-bottom: 1px solid black;
+    float: right;
+}
 
 /* the styles for the aside */
 aside {
@@ -158,7 +166,28 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
+figcaption{
+	color: #800000;
+    font-size: 150%;
+}
+table {
+    border-collapse: collapse;
+    border-color: #800000;
+}
+th, td {
+    padding: 0.1em 0.7em; /* looks right to Dave; you can do otherwise */
+}
+th{
+    border-top: 2px solid #800000;
+    border-bottom:2px solid #800000;
+}
+tfoot tr td:first-child{
+    font-weight: bold;
+    text-align: right;
+}
+tfoot tr:last-child, tfoot tr:first-child, tbody{
+    border-top: 2px solid #800000;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;

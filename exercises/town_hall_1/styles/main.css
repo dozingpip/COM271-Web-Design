@@ -11,14 +11,14 @@ body {
     font-size: 100%;
     width:99%;
     max-width: 960px;
-    margin:0px auto 0px;
+    margin: 0px auto 0px;
     border: 3px solid #931420;
-    background-color:#fffded;
+    background-color: #fffded;
 }
 
 header{
-    padding-top:1.5em;
-    padding-bottom:2em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
     background:linear-gradient(45deg,#f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
     border-bottom: 3px solid #931420;
 }
@@ -30,7 +30,6 @@ header img {
     max-width: 40%;
     min-width: 105px;
 }
-
 
 header h2{
     color: #800000;
@@ -103,6 +102,7 @@ section{
     width: 96%;
     max-width: 525px;
     padding: 0px 2% 2% 0px;
+    float: right;
 }
 
 section h1{
@@ -137,13 +137,8 @@ article h3{
 aside{
     width: 96%;
     max-width: 215px;
-    padding: 0px 2% 2% 0px;
-}
-
-aside div{
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+    padding: 0px 2% 2% 5%;
+    float: right;
 }
 
 aside h2{
@@ -212,6 +207,9 @@ footer p{
 
     section h2{
         font-size: 120%;
+    }
+    aside{
+        float: none;
     }
 }
 
