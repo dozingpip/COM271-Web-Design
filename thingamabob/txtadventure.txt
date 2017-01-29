@@ -1,0 +1,42 @@
+characters: Pika, Pip, Charma, 
+
+pics: 
+	Charma- http://www.thatawesomeshirt.com/images/get/1406/430x550/
+	Pikla - http://static.zerochan.net/Pikachu.full.1937136.jpg
+	Pip - http://imgur.com/Z5kfS6F.gif
+
+	story pics: http://cdn.bulbagarden.net/upload/thumb/e/e9/Piplup_web_DP122.png/250px-Piplup_web_DP122.png
+	xatu fainted http://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season05/season05_ep25_ss04.jpg
+
+storytime:
+You are Pikla, the Pikachu monk the from the mountains of [PLAYER NAME]. You recently decided to make the traditional monk pilgrimage to Mt. Coronet, the mountain shrouded in mystery. Ever since you were a young pichu, your master, Tenzen the Xatu told you legends of the great spiritual power of Mt. Coronet. Your greatest ambition in this life is to learn the secrets of this spiritual mountain. 
+
+NEXT BUTT
+
+You shoulder your staff and satchel of only the most necessary items, such as lembas bread and oran berries. As you say goodbye to your fellow monks, your master glides over the croud of fellow monks. Your heartbeat quickens and you hold back your tears. You already miss him, as well as your friends. 
+	"Pikla, this is an important journey, and I believe you are ready to make the pilgrimage. However, this is a journey one can make at any point in their spiritual path. Leave only if you believe you are ready."
+	CHOICE: GO, STAY, CRY AND HUG YOUR MASTER
+		GO: Go to next screen 
+		STAY: FIRST BAD ENDING. You decide to stay and live your life among your fellow monks. You attempted the pilgrimage a second time, but fell off of a cliff on your way down from [PLAYER NAME] mountain, dying without ever knowing the secrets of Mt Coronet.
+		CRY AND HUG YOUR MASTER: You hug your master, and cry. Your intense emotion triggers accidental electric shock. Your tears fuel the electricity and the shock is so powerful that your master faints. Other pokemon rush to your master's aid. They encourage you to leave.Now.
+		[AFTER CHOOSING THIS OPTION, THE OTHER TWO CHOICES ARE STILL AVAILABLE.]
+	After making the choice to leave the nest, Tenzen gives you a reassuring smile. He then lifts his wings from behind his back to reveal two items. Water or ketchup?
+
+
+	pip time
+		After traveling a few days down your mountain, you've come to a thick forest. While walking among the trees and gathering berries for food, you see movement behind a small HERD of bushes. 
+		CHOICE: IGNORE, HIT BUSH WITH STAFF, TALK TO BUSH
+		IGNORE: You decide to ignore the movement in the bush, leaving it alone. You continue walking by, and notice that your bag suddenly feels lighter. After opening your bag, you notice your [whichever item you got from xatu] is gone! Your precious [item]!
+		HIT BUSH WITH STAFF: A Piplup comes out of the bush holding its head in pain. 
+			"Hey, what was that for?" Piplup asks you, with tears in his eyes. Surprised, you:
+			CHOICE: APOLOGIZE, QUESTION, LAUGH
+			APOLOGIZE: 
+				"OH! I'm sorry, I thought you were a threat! I shouldn't have jumped to conclusions, it was an instinct!" You blush, embarassed, and toss your staff over your shoulder. Piplup crosses his arms, and grunts. 
+				"Hmph. Well, it's fine. I've been scouring the bushes for berries, but someone seems to be taking them all!" 
+			You can tell by the emphasis he puts on the word "someone" that he's implying that "someone" is you. NEXT SCREEN
+				
+			QUESTION: You place your staff over your shoulder and look at the piplup.
+				"What were you doing in the bush? It seems like you were trying to hide." 
+			You cross your arms and look at Piplup. It's curious after all, why was he hiding behind bushes where you couldn't see him? What was he trying to do? 
+			Piplup grumbles something under his breath before responding. 
+				"What do you mean hiding? I was just looking for berries! You're the one that hit me!" Pip exclaims, still crutching his head looking all adorable and not actually in that much pain.

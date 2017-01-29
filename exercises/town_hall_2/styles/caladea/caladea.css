@@ -1,0 +1,36 @@
+/* Just set up the font family here; makes it easier to reuse */
+/* Each of the four variants of Caldea is still in the same
+   font-family. Just the font-weight and font-style will change.
+   You may omit "normal" descriptors if you prefer. */
+@font-face {
+    font-family: Caladea, Cursive;
+    font-style: normal; /* do not need to specify normal */
+    font-weight: normal; /* do not need to specify normal */
+    src: url('Caladea-Regular.ttf');
+}
+
+/* now, complete the family with rules for each variant: */
+@font-face {
+    font-family: Caladea, Cursive;
+    font-style: italic;
+    font-weight: bold;
+    src: url('Caladea-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: Caladea, Cursive;
+    font-style: italic;
+    font-weight: normal;
+    src: url('Caladea-Italic.ttf');
+}
+
+@font-face {
+    font-family: Caladea, Cursive;
+    font-style:  normal;
+    font-weight: bold;
+    src: url('Caladea-Bold.ttf');
+}
+
+*{
+    font-family: Caladea, Cursive !important;
+}

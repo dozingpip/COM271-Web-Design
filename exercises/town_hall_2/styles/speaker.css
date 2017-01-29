@@ -131,6 +131,7 @@ aside {
 	width: 215px;
 	float: right;
 	padding: 0 0 20px 20px;
+	float: none;
 }
 aside h2 {
 	color: #800000;
@@ -156,4 +157,42 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+@media print {
+	body{
+		font-family: "Times New Roman", Times, serif;
+		width: auto;
+		background-color: white;
+		border: none;
+	}
+
+	#nav_menu ul li a, aside h2{
+		display: none;
+	}
+
+	section{
+		width: 5in;
+	}
+	aside{
+		width: 2in;
+	}
+	section, aside{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	aside h2{
+		font-size: 100%;
+	}
+	article p, footer p{
+		font-size: 87.5%;
+	}
+	aside a{
+		text-decoration: none;
+		color: black;
+	}
+	footer{
+		padding-top: .75em;
+		border: 3px solid #931420;
+	}
 }

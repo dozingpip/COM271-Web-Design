@@ -36,12 +36,18 @@
     <main>
         <section>
             <h1 class="spaceafter">jQuery Slide Show</h1>
-            <div class="cycle-slideshow">
+            <div class="cycle-slideshow"
+                data-cycle-timeout = "2000"
+                data-cycle-fx = "shuffle"
+                data-cycle-pause-on-hover = "true"
+                data-cycle-caption = "#alt-caption"
+                data-cycle-caption-template="{{alt}}">
                 <img src="images/toobin_court.jpg" alt="Jeffrey Toobin" height="200">
                 <img src="images/sorkin_desk260.jpg" alt="Andrew Ross Sorkin" height="200">
                 <img src="images/tynan_wave.jpg" alt="Ronan Tynan" height="200">
                 <img src="images/sampson_dinosaur.jpg" alt="Scott Sampson" height="200">
             </div>
+            <div id = "alt-caption"></div>
         </section>
         <aside>
         <h2>Applications</h2>

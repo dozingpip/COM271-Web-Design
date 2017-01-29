@@ -1,0 +1,59 @@
+@import "main.css";
+
+:root{
+	--rotate: rotate(180deg);
+	--textsize: 1em;
+    --hovertext: 1.5em;
+}
+header{
+	position: fixed;
+	float: left;
+}
+nav{
+	display: block;
+	position: relative;
+	margin-left: 20%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+aside{
+	display: block;
+	margin-left: 0.5em;
+	position: relative;
+	width: 10%;
+}
+
+aside ul{
+	padding: 0;
+}
+aside ul li{
+	list-style-type: none;
+	padding-bottom: .5em;
+}
+aside ul li a{
+	text-decoration: none;
+	color: var(--white);
+	font-weight: bold;
+}
+
+main{
+	margin-left: 15%;
+	padding-left: 1em;
+}
+
+main:not(td) img{
+	margin-right: 2%;
+	width: 50%;
+	max-width: 1000px;
+	float: left;
+	box-shadow: 2px 2px 5px black;
+}
+
+aside, main{
+	display: inline-block;
+}
+
+main h2, main p{
+	display: block;
+}

@@ -47,12 +47,12 @@ header img {
 }
 /* the styles for the form */
 fieldset {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     padding-top: .5em;
+    padding-bottom: 0.5em;
 }
 legend {
-    color: #931420;
+    color: black;
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
@@ -71,13 +71,17 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid red;
+	border: 2px solid #800000;
 }
 input:valid {
 	border: 1px solid black;
 }
 input:invalid {
 	box-shadow: none;
+	border: 2px solid #800000;
+}
+#exp_date{
+	width:4em;
 }
 br {
     clear: both;
@@ -130,6 +134,11 @@ main {
 	clear: left;
 }
 
+#payment *{
+	float: none;
+	margin-left: 2em;
+	width:auto;
+}
 /* the styles for the section */
 section {
 	width: 525px;

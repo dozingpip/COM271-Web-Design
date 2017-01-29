@@ -7,14 +7,24 @@ $(document).ready(function() {
 	
 	// set up event handlers for links    
 	$("#image_list a").click(function(evt) {
+
 		// swap image
 		var imageURL = $(this).attr("href");
-		$("#image").attr("src", imageURL);
-		
-		//swap caption
+		$("#image").fadeOut(
+			function(){
+				$("#image").attr("src", imageURL);
+				$("#image").fadeIn();
+			});
+
+		// swap caption
 		var caption = $(this).attr("title");
-		$("#caption").text(caption);
-				
+		$("#caption").fadeOut(
+			function(){
+				$("#caption").text(caption);
+				$("#caption").fadeIn();
+			});
+
+		
 		// cancel the default action of the link
 	    evt.preventDefault();  // jQuery method that's cross-browser compatible
 	}); // end click

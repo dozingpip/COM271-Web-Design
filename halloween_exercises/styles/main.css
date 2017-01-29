@@ -36,8 +36,11 @@ a:hover{
     color: green;
 }
 
+#mobile_menu{
+    display: none;
+}
 
-nav ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,16 +48,19 @@ nav ul {
     background-color: #333;
 }
 
-nav li {
+#nav li {
     float: left;
 }
 
-nav li a, .dropbtn{
+#nav li a, .dropbtn{
     display: block;
-    color: white;
     text-align: center;
     padding: 0.8em 1.5em;
     text-decoration: none;
+}
+
+#nav li a:not(.active){
+    color: white;
 }
 
 .dropdown-content {
@@ -75,7 +81,7 @@ li.dropdown {
     display: inline-block;
 }
 
-nav li a:hover:not(.active) {
+#nav li a:hover:not(.active) {
     background-color: gray;
     color: white;
 }
@@ -91,6 +97,7 @@ nav li a:hover:not(.active) {
 main{
     margin-left:10em;
     margin-right: 0.8em;
+    float:left;
 }
 
 main h2{
@@ -117,6 +124,7 @@ main h2{
 
 .sidebar{
     float: left;
+    position:relative;
     width: 10em;
 }
 
@@ -133,10 +141,6 @@ main h2{
     padding:0.6em;
     margin: 0;
     width: 90%;
-}
-
-#cat{
-    display: block;
 }
 
 footer{

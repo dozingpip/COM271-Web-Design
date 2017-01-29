@@ -1,0 +1,115 @@
+:root{
+  --minwidth: 8vmax;
+  --maxwidth: 10vmax;
+  --bcolor: linear-gradient(to left, #093028 , #237A57);
+  --text: #0A2954;
+  --htext: #E1F5C4;
+  --rotate: rotate(0deg);
+  --textsize: 150%;
+  --hovertext: 200%;
+}
+html { 
+  background: var(--bcolor);
+  width: 98.8vw;
+  height:auto;
+  margin:0;
+  font-family: Sans-Serif;
+}
+
+nav{
+    border-radius: 50%;
+    width: var(--minwidth);
+    height: var(--minwidth);
+    min-width: var(--minwidth);
+    max-width: var(--maxwidth);
+    min-height: var(--minwidth);
+    max-height: var(--maxwidth);
+    opacity: 0.5;
+    position: relative;
+    clear:both;
+    margin:auto;
+    transition: width .5s, height .5s, opacity 1s, transform 1s ease-in;
+}
+
+nav:before{
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url(../images/compass.png) 50% 50% no-repeat;
+  background-size: contain;
+  -webkit-transform: var(--rotate);
+  -moz-transform: var(--rotate);
+  -ms-transform: var(--rotate);
+  -o-transform: var(--rotate);
+  transform: var(--rotate);
+  transition: transform 1s ease-in;
+}
+
+nav:hover{
+    width: var(--maxwidth);
+    height: var(--maxwidth);
+    opacity: 0.9;
+}
+
+nav:hover .nav-item a{
+  display: block;
+  opacity: 1.5;
+}
+
+.nav-item{
+  position: absolute;
+  display: block;
+  text-align: center;
+  width:100%;
+  margin: 0;
+  padding:0;
+}
+
+.nav-item a{
+  display: none;
+  color: var(--text);
+  text-decoration: none;
+  font-size: var(--textsize);
+}
+
+.current a{
+  color: var(--htext);
+}
+
+.nav-item a:hover{
+  font-size: var(--hovertext);
+  font-weight: bold;
+}
+
+#right{
+  top: 40%;
+  left: 50%;
+}
+
+#left{
+  top: 40%;
+  right:50%;
+}
+
+#bottom{
+  top: 90%;
+  left:0%;
+}
+
+#top{
+  bottom: 90%;
+  left:0%;
+}
+
+footer p{
+  color: #E1F5C4;
+}
+footer{
+  position: absolute;
+  right:0;
+  top:90%;
+}

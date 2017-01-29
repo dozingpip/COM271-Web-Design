@@ -14,7 +14,7 @@ body{
 
 header img, a img{
     max-width: 100px;
-    max-height: 100px;
+    max-height: 85px;
     min-width: 40px;
     min-height: 40px;
     width: 15%;
@@ -28,10 +28,24 @@ a img{
 }
 
 .sidebar{
-    width: 30%;
+    position:absolute;
 }
 
-@media (max-width: 800px){
+
+@media only screen and (max-width: 959px){
+    section h1{
+        font-size: 135%;
+    }
+
+    section h2{
+        font-size: 120%;
+    }
+    aside{
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
     html{
         box-shadow: none;
         font-size:90%;
@@ -39,20 +53,45 @@ a img{
     }
 }
 
-@media (max-width: 767px){
-    nav{
-        display: hidden;
-    }
-    slicknav{
-        display: block;
-    }
+@media only screen and (max-width: 767px){
     html{
         padding: 2%;
         margin: 2%;
     }
+    header img{
+        float: none;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #mobile_menu{
+        display: block;
+    }
+    #nav li a, .dropbtn{
+        text-align: left;
+    }
+    .dropdown-content{
+        position: static;
+        float:right;
+    }
+    .sidebar{
+        margin-left: 35%;
+        margin-right: 35%;
+        position: relative;
+        top:90%;
+    }
+    main{
+        margin-left: 10px;
+    }
 }
 
-@media (max-width:479px){
+@media only screen and (max-width: 479px){
     header, main h1, main h2, main h3{
         font-size: 95%;
     }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple game of guessing high or low</title>
+    <!-- lab step 1 -->
+    <script src = "hilo.js"></script>
+    <script>
+        // this is a little bit of magic that tells the browser to
+        // do our game setup as soon as it has read through the body.
+        // notice that we are *not* calling hilo.setup() at this time;
+        // we are passing along the function value to be called later.
+        document.addEventListener("DOMContentLoaded", hilo.setup);
+    </script>
+</head>
+<body>
+<h1>High-low</h1>
+<p>
+    This is a simple game. I will pick a number from <span id="minimum">##</span> to <span id="maximum">##</span>.
+    You have <span id="tries">##</span> tries to guess the number. Each time I will tell you if you guessed
+    high or low. Good luck!
+</p>
+<div>
+    <form id="guessForm">
+        <input type="number" id="guessNumber">
+        <input type="button" id="guessButton" value="Guess!">
+    </form>
+</div>
+<div id="messages">
+
+</div>
+
+</body>
+</html>

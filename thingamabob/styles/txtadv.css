@@ -1,0 +1,53 @@
+@import "main.css";
+:root{
+	--bcolor: #E1F5C4;
+	--rotate: rotate(90deg);
+	--textsize: 130%;
+	--hovertext: 150%;
+	--htext: green;
+}
+
+nav{
+	position: fixed;
+	margin-top: 2%;
+	left:5%;
+}
+
+.book{
+	
+}
+
+.page:target{
+	display: block;
+}
+
+.page{
+	display: none;
+	text-align: center;
+}
+
+.page figure img{
+	position: relative;
+	display: inline-block;
+	width: 460px;
+}
+
+.choice{
+	display: inline-block;
+	padding: 5px;
+	border: 2px solid grey;
+	background-color: #88DFFF;
+	color: #7400FF;
+}
+
+.choice a{
+	text-decoration: none;
+	font-size: 150%;
+}
+
+.reset{
+	position: relative;
+	text-align: center;
+	left: 50%;
+	bottom:-50%;
+}

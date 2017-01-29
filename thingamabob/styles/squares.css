@@ -1,0 +1,65 @@
+@import "main.css";
+
+:root{
+  --minwidth: 10vmax;
+  --maxwidth: 15vmax;
+  --rotate: rotate(-90deg);
+  --bcolor: none;
+  --text: var(--htext);
+  --htext: white;
+}
+
+html, body{
+  min-height: 100%;
+  margin: 0;
+  padding:0;
+}
+
+nav{
+  margin-top: 2%;
+  right:40%;
+  opacity: 1;
+  z-index:100;
+}
+nav:hover{
+  opacity: 1;
+}
+
+body{
+  background: url(https://66.media.tumblr.com/34abc9b3b86d41562689ae45823a69f2/tumblr_nyjgrvFCK41u7gnm9o1_500.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.3;
+  overflow: hidden;
+}
+
+.block {
+  position: absolute;
+  z-index:1;
+  opacity: .6;
+  overflow: visible;
+  box-sizing: border-box;
+  border: 0px solid;
+  color: rgb(0, 0, 0);
+  box-shadow: 30px 30px 60px -10px inset;
+  transform:rotate(0deg);
+  border-radius: 10%;
+  transform-origin: 50%;
+  transform-style: preserve-3D;
+}
+
+.block:hover{
+  opacity: 0.9;
+}
+
+.text{
+  background-color: white;
+  border: 1px solid black;
+  border-radius:40%;
+  opacity: 1;
+  width: 60%;
+  left: 10px;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+}

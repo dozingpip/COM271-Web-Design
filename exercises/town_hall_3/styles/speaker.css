@@ -210,3 +210,10 @@ footer p {
 		border-top: 3px solid #931420;
 	}
 }
+
+#accordion img{
+	float: left;
+	margin-left: 1em;
+	margin-bottom:0.5em;
+	margin-top: 0.5em;
+}

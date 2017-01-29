@@ -1,0 +1,19 @@
+@import "main.css";
+
+table tr td:last-child{
+	background-color: #F5DEB3;
+}
+
+table caption{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+table thead{
+	color: grey;
+}
+
+table tr td a{
+	color: black;
+	font-weight: normal;
+}

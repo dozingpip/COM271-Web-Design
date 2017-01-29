@@ -1,0 +1,37 @@
+@import 'main.css';
+@import 'main_rwd.css';
+
+#cat p, #cat img{
+	float:left;
+	display:block;
+}
+
+#right ul, #right{
+	float:right;
+	width:180px;
+}
+#product{
+	margin-left: 300px;
+	margin-right: 20px;
+}
+
+main{
+	margin-right: 200px;
+}
+
+#right{
+	background-color:orange;
+	padding: 1em;
+}
+
+#right li a{
+	color: black;
+}
+
+header a{
+	border-radius: 50%;
+}
+
+.stuff{
+	position: relative;
+}

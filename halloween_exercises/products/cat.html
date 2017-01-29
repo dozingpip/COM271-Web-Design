@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--Stephanie Donnelly CSC212 Halloween 3 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+  <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <link rel = 'stylesheet' href="../styles/products.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script type = "text/javascript">
+        $(document).ready(function(){
+                $('#nav').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+	<title>The Halloween Store</title>
+</head>
+
+<body>
+	<header>
+  <a href="../index.html">
+		<img src = '../images/pumpkin.gif'></a>
+        <h2>The Halloween Store</h2>
+        <h3>For the little Goblin in all of us!</h3>
+	</header>
+    <nav id = 'mobile_menu'></nav>
+    <nav id ="nav">
+        <ul>
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a href="#product_list">Product List</a></li>
+          <li><a href="#personal">Personal</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Decorating Ideas</a>
+            <div class="dropdown-content">
+              <a href="#">Outdoor</a>
+              <a href="#">Indoor</a>
+              <a href="#">Table</a>
+              <a href="#">Treats</a>
+            </div>
+          </li>
+          <li><a href="#join">Join Email</a></li>
+        </ul>
+    </nav>
+    <div class = "stuff">
+    <div class = 'sidebar' id= "right">
+    <h3>Customers who bought this product also bought: </h3>
+      <ul>
+        <li><figure><img src= "../images/flying_bats.jpg" alt= "flying bat">
+        <a href = "../products/bats.html"></a>
+        <figcaption>Flying Bat</figcaption></figure></li>
+        <li><figure><img src="../images/rat1.jpg">
+        <a href="../products/rat.html"></a><figcaption>16" Ugly rat</figcaption></figure></li>
+        <li><a href="../products/strobe.html"><figure><img src= "../images/strobe1.jpg"><figcaption>Mini strobe light</figcaption></figure></a></li>
+      </ul>
+    </div>
+    <main>
+    <div id ="cat">
+      <p>20" Deranged cat</p>
+      <img src = '../images/cat1.jpg' id="cat_pic">
+    </div>
+    <p id = "product">This cat provides its own light and is perfect for a backyard haunting.<br>
+    <em>Price: </em>19.99</p>
+    </main>
+    <div class = 'sidebar' id= "left">
+      <ul>
+        <li><a href = "../products/props.html">Props</a></li>
+        <li><a href="../products/costumes.html">Costumes</a></li>
+        <li><a href="../products/special_fx.html">Special FX</a></li>
+        <li><a href="../products/other.html">Other</a></li>
+      </ul>
+    </div>
+</div>
+
+    <div class="clear"></div>
+	<footer>&copy; 2016 Stephanie Donnelly</footer>
+</body>
+</html>
